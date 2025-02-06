@@ -2,7 +2,6 @@ package com.yate.controller;
 
 import com.yate.dto.Course;
 import com.yate.service.CourseService;
-import lombok.extern.log4j.Log4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -17,7 +16,6 @@ import java.util.Optional;
  * basic health and welcome responses.
  */
 @RestController
-@Log4j
 @RequestMapping("/courses")
 public class CourseController {
 
