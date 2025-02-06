@@ -1,0 +1,42 @@
+# Eclipse related files
+.project
+.classpath
+.settings/
+target/
+
+# IntelliJ IDEA related files
+.idea/
+*.iml
+*.iws
+out/
+
+# VS Code related files
+.vscode/
+
+# Maven specific files
+target/
+!**/src/main/**/target/
+*.mvn
+.mvn/
+
+# Gradle specific files
+.gradle/
+build/
+!**/src/main/**/build/
+.gradle/caches/
+.gradle/gradle-app.setting/
+
+# Logs
+*.log
+logs/
+spring.log
+
+# Temporary files
+*.tmp
+*.lock
+*.bak
+*.swp
+*.swo
+
+.Dlogger dirty apps
+Tu `.gitbenchime.cli
